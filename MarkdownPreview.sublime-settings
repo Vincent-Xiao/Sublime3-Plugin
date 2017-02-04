@@ -1,0 +1,13 @@
+{
+    "parser": "github",
+    "build_action": "browser",
+    "enable_mathjax": true,
+    "enable_uml": true,
+    "enable_highlight": true,
+    "enable_pygments": true,
+    "enabled_extensions": "github",
+    "enabled_parsers": ["github"],
+    "github_mode": "markdown",
+    "github_inject_header_ids": true,
+    "enable_autoreload": false
+}

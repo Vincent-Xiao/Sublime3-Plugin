@@ -1,0 +1,25 @@
+{
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+	"default_line_ending": "unix",
+	"dpi_scale": 1.0,
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "DejaVu Sans Mono",
+	"font_size": 15,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"mdpopups.default_formatting": false,
+	"mdpopups.user_css": "Packages/cndict/mdpopups.css",
+	"preview_on_click": false,
+	"remember_open_files": "true",
+	"save_on_focus_lost": true,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": "true"
+}
