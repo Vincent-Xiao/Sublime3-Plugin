@@ -1,7 +1,7 @@
 {
 	"auto_find_in_selection": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
 	"default_line_ending": "unix",
 	"dpi_scale": 1.0,
 	"draw_minimap_border": true,
@@ -13,6 +13,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Codecs33",
 		"Vintage"
 	],
 	"mdpopups.default_formatting": false,
