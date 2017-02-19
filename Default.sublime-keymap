@@ -1,0 +1,7 @@
+[
+    {"command": "sublime_jedi_docstring", "keys": ["f3"],
+        "context": [
+            {"key": "selector", "operator": "equal", "operand":  "source.python - string - comment"}
+        ]
+    }
+]
