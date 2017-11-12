@@ -6,9 +6,10 @@
 	"dpi_scale": 1.0,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
+	"expand_tabs_on_save": true,
 	"fade_fold_buttons": false,
 	"font_face": "DejaVu Sans Mono",
-	"font_size": 16,
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -21,6 +22,7 @@
 	"preview_on_click": false,
 	"remember_open_files": "true",
 	"save_on_focus_lost": true,
+	"tabs": 4,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "true"
 }

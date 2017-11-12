@@ -1,0 +1,6 @@
+{
+    "verilog": {
+        "syntax": "Packages/verilog/verilog.tmLanguage",
+        "extension": "v"
+    },
+}

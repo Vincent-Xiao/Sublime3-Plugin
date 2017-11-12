@@ -10,5 +10,11 @@
 {"id": "repl_python",
 "file": "config/Python/Main.sublime-menu"}},
 
-{ "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target": "browser"} }
+{ "keys": ["alt+m"], "command": "markdown_preview_select", "args": {"target": "browser"} },
+{
+        "keys": ["ctrl+alt+v"], "command": "sublime_tmpl",
+        "args": {"type": "verilog"}, "context": [{"key": "sublime_tmpl.verilog"}]
+    },
+{ "keys": ["ctrl+shift+a"], "command": "alignment" }
+
 ]
