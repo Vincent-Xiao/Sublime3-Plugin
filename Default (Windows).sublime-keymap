@@ -15,6 +15,10 @@
         "keys": ["ctrl+alt+v"], "command": "sublime_tmpl",
         "args": {"type": "verilog"}, "context": [{"key": "sublime_tmpl.verilog"}]
     },
+{
+        "keys": ["ctrl+alt+p"], "command": "sublime_tmpl",
+        "args": {"type": "python"}, "context": [{"key": "sublime_tmpl.py"}]
+    },
 { "keys": ["ctrl+shift+a"], "command": "alignment" }
 
 ]

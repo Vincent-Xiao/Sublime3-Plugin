@@ -20,37 +20,11 @@
 **
 **------------------------------------------------------------------------------------------------------
 ********************************************************************************************************/
-`timescale 1ns/1ns 
-module  template (/*autoport*/
-                 );
-			  
-//parameter define
- 
-//input define 
-input                      sys_clk;
-input                      sys_rst_n;
-//output define 
 
-//variable define 
+#include <iostream>
 
-//Instantiation
+using namespace std;
 
-/*******************************************************************************************************
-**                              Main Program    
-**  
-********************************************************************************************************/
-
-//assign statement
-
-//always statement
-always @(posedge sys_clk or negedge sys_rst_n ) begin 
-	if(!sys_rst_n) begin
-	end
-	else if(clr)begin
-	end
-	else if(Enable) begin
-	end
-end
-
-endmodule
-//*************************end of RTL code***********************                       
+int main(){
+    return 0;
+}

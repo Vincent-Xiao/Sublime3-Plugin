@@ -13,6 +13,28 @@
                 "enable": "style",
                 "excludes": [],
                 "std": []
+            },
+            "pydocstyle": {
+                "@disable": false,
+                "add-ignore": "",
+                "add-select": "",
+                "args": [],
+                "config": "",
+                "convention": "",
+                "excludes": [],
+                "ignore": "",
+                "ignore-decorators": "",
+                "select": ""
+            },
+            "pylint": {
+                "@disable": false,
+                "args": [],
+                "disable": "",
+                "enable": "",
+                "excludes": [],
+                "paths": [],
+                "rcfile": "",
+                "show-codes": false
             }
         },
         "mark_style": "outline",

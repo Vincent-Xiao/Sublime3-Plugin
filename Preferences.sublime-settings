@@ -15,6 +15,7 @@
 	"ignored_packages":
 	[
 		"Codecs33",
+		"Markdown",
 		"Vintage"
 	],
 	"mdpopups.default_formatting": false,
@@ -23,6 +24,7 @@
 	"remember_open_files": "true",
 	"save_on_focus_lost": true,
 	"tabs": 4,
+	"theme": "Boxy Solarized Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": "true"
 }
