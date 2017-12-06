@@ -4,6 +4,9 @@
 <!-- MarkdownTOC -->
 
 - [插件列表及开发环境搭建](#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%8F%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
+    - [&emsp;&ensp;Markdown环境](#emspenspmarkdown%E7%8E%AF%E5%A2%83)
+    - [&emsp;&ensp;Python环境](#emspensppython%E7%8E%AF%E5%A2%83)
+    - [&emsp;&ensp;Matlab环境](#emspenspmatlab%E7%8E%AF%E5%A2%83)
 - [Sublime 构建系统](#sublime-%E6%9E%84%E5%BB%BA%E7%B3%BB%E7%BB%9F)
 - [快捷键设置](#%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE)
 - [使用](#%E4%BD%BF%E7%94%A8)
@@ -35,8 +38,17 @@ Seetings-User设置：
 - [HexViwer](https://github.com/facelessuser/HexViewer):以16制和ASCII模式显示文件
 - [LaTeX Word Count](https://github.com/kevinstadler/SublimeLaTeXWordCount):字符统计
 - [Local History](https://github.com/vishr/local-history):自动保存本地历史文件
+- [Origami](https://github.com/SublimeText/Origami):增强的Sublime分屏工具
+- [TabsExtra](https://github.com/facelessuser/TabsExtra):增强Sublime标签选项
 
->**Markdown环境**
+![TabsExtra](http://iostream.io/wp-content/uploads/2017/12/Menu.png)
+
+- [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces):高亮文本末尾的空格字符，并可以删除所有末尾空白字符
+- [Verilog Automatic](https://github.com/Tian-Changsong/Verilog-Automatic):Verilog语法工具，可以自动生成接口、实例，声明
+- [ConvertToUTF8](https://github.com/seanliang/ConvertToUTF8):编辑并保存编码不被 Sublime Text 支持的文件，解决文件乱码问题
+- [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3):代码语法检测工具；具体的语法检测需要单独安装组件
+
+### &emsp;&ensp;Markdown环境
 
 - [Markdown Extended](https://github.com/jonschlinkert/sublime-markdown-extended):Markdown 语法高亮
 - [Markdown Editing](https://github.com/SublimeText-Markdown/MarkdownEditing):增强的Markdown语言编辑器
@@ -52,9 +64,10 @@ Seetings-User设置：
 - [MarkdownToc](https://github.com/naokazuterada/MarkdownTOC):Markdown目录生成;  
 自动插入并更新TOC：
 ```
-<!-- MarkdownTOC -->
-
 - [插件列表及开发环境搭建](#%E6%8F%92%E4%BB%B6%E5%88%97%E8%A1%A8%E5%8F%8A%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
+    - [&emsp;&ensp;Markdown环境](#emspenspmarkdown%E7%8E%AF%E5%A2%83)
+    - [&emsp;&ensp;Python环境](#emspensppython%E7%8E%AF%E5%A2%83)
+    - [&emsp;&ensp;Matlab环境](#emspenspmatlab%E7%8E%AF%E5%A2%83)
 - [Sublime 构建系统](#sublime-%E6%9E%84%E5%BB%BA%E7%B3%BB%E7%BB%9F)
 - [快捷键设置](#%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE)
 - [使用](#%E4%BD%BF%E7%94%A8)
@@ -74,17 +87,9 @@ Seetings-User设置：
 }
 ```
 &emsp;&ensp;如果需要将文档转为PDF需要安装Latex,Windows推荐[TeX Live](https://www.tug.org/texlive/acquire-netinstall.html)(*本文没有配置好pdf的中文支持*)
-- [Origami](https://github.com/SublimeText/Origami):增强的Sublime分屏工具
-- [TabsExtra](https://github.com/facelessuser/TabsExtra):增强Sublime标签选项
 
-![TabsExtra](http://iostream.io/wp-content/uploads/2017/12/Menu.png)
 
-- [Trailing Spaces](https://github.com/SublimeText/TrailingSpaces):高亮文本末尾的空格字符，并可以删除所有末尾空白字符
-- [Verilog Automatic](https://github.com/Tian-Changsong/Verilog-Automatic):Verilog语法工具，可以自动生成接口、实例，声明
-- [ConvertToUTF8](https://github.com/seanliang/ConvertToUTF8):编辑并保存编码不被 Sublime Text 支持的文件，解决文件乱码问题
-- [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3):代码语法检测工具；具体的语法检测需要单独安装组件
-
->**Python环境**
+### &emsp;&ensp;Python环境
 
 - [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint):SublimeLinter python组件。首先在系统上安装Python环境，推荐[Anaconda](https://www.anaconda.com/download/);然后安装pyInit '`pip install pylint`' (如果安装了Anaconda,pylint默认已经安装)
 - [Jedi](https://github.com/srusskih/SublimeJEDI):Python 自动补全,查找函数定义、使用，显示DocString
@@ -133,6 +138,23 @@ if __name__ == "__main__" :
         "args": {"type": "python"}, "context": [{"key": "sublime_tmpl.py"}]
     },
 ```
+### &emsp;&ensp;Matlab环境
+
+- [Matlab-Completions](https://github.com/tushortz/Matlab-Completions):Matlab 语法自动补全
+- 系统安装Matlab
+- 新建Build System：在Sublime中选择Tools -> Build System -> New Build System，系统会创建一个JSON文件；Windows修改如下,保存即可
+
+```css
+{
+    "cmd": ["D:/user/software/work/MATLAB2015b/bin/matlab.exe", "-nodesktop", "-nosplash", "-r", "\"run('$file')\""],
+    "selector": "source.m",
+    "working_dir": "${project_path:${folder}}"
+}
+
+```
+>matlab -nosplash -nodesktop -r ${file_base_name}表示启动matlab，并运行某个.m文件。-nosplash表示不加载启动界面；-nodesktop表示不加载GUI界面；-r表示运行Matlab命令行（MATLAB_command）
+
+- 使用Sublime 快捷键'Ctrl+B'编译运行Matlab代码；每次运行都会产生新的Matlab命令行界面，有点耗时间；可以第一次启动Matlab命令行，以后在命令中运行新的Matlab代码
 
 ## Sublime 构建系统
 &emsp;&emsp;&ensp;Sublime Text 3 提供了构建系统（Build System），可以编译并运行程序，本质上调用系统安装的代码编译器。对于任意语言，只要在系统安装了对应的编译器，就可以使用构建系统运行程序。比如C++,在系统上安装gcc/g++(MinGW)环境之后就就可以在C++文件界面按下'Ctrl+B'编译运行C++代码，python类似。  
